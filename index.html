@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+
+<header>
+	<title>SweetNSour</title>
+
+	
+</header>
+<body>
+
+<ul>
+	<li><a class = "active" href="#home"><img src = "Assets/drawings/pokeball.png" width = "30" height = "auto" alt="Logo"></a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="bundles.html">Bundles</a></li>
+  <li><a href="stickers.html">Stickers</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="buyNow.html">Buy Now</a></li>
+</ul>
+
+
+	<img src = "Assets/graphics/fullBanner.png" alt="Logo" class = "banner">
+	
+
+
+
+	<CENTER>
+	<a href = "buyNow.html" class = "button" class = "buyNow">Buy Now</a>
+	</CENTER>
+
+
+
+
+	<img src = "Assets/graphics/stickerBanner.png" alt="StickerBanner" class = "stickerBanner">
+
+
+
+
+	<img src = "Assets/graphics/coupleBanner.png" alt="coupleBanner" class = "coupleBanner">
+
+
+
+<br>
+
+
+<style>
+
+
+body{
+	margin: 0;
+	background-image: url("Assets/background.png");
+	background-size: 2000px;
+  padding-bottom: 100px;
+  padding-top:  100px;
+}
+
+ul{
+	list-style-type:  none;
+	padding: 0;
+	overflow:  hidden;
+	background-color: #fecd1a;
+	position:  fixed;
+	top: -1%;
+	width:  100%;
+	z-index: 1;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	font-size: 180%;
+	display: block;
+	color: black;
+	text-align:  center;
+	padding: 5px 60px;
+	text-decoration: none;
+
+
+}
+
+li a:hover:not(.active){
+	background-color: #feaa29 ;
+}
+.active{
+	background-color: #fd5e62;
+}
+
+.button{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 170%;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #A27fe7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #4a4949;
+  position: absolute;
+  top: 40%;
+  left: 46%;
+}
+
+.button:hover{
+	background-color: #724b92;
+}
+
+.button:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.banner{
+	position: absolute;
+	width: 62%;
+	height: auto;
+	display: inline-block;
+	top: 5%;
+	left: 20%;
+
+
+}
+.stickerBanner{
+	position: absolute;
+	top:  50%;
+	left: 5%;
+	width: 48%;
+	height: auto;
+}
+
+
+
+.coupleBanner{
+	position: absolute;
+	top:  46%;
+	left: 48%;
+	width: 52%;
+	height: auto;
+}
+
+</style>
+
+
+</body>
+</html>
+

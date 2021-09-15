@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html>
+
+<header>
+	<title>SweetNSour</title>
+
+	
+</header>
+<body>
+
+<ul>
+	<li><a href="index.html"><img src = "Assets/drawings/pokeball.png" width = "30" height = "auto" alt="Logo"></a></li>
+  <li><a class="active">About</a></li>
+  <li><a href="bundles.html">Bundles</a></li>
+  <li><a href="stickers.html">Stickers</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="buyNow.html">Buy Now</a></li>
+</ul>
+
+<a href = #aboutSweet><img src = "Assets/graphics/sweetNMew.png" alt="sweetNMew" class = "sweetNMew"></a>
+<a href = #aboutSour><img src = "Assets/graphics/sourNSnorlax.png" alt="sourNSnorlax" class = "sourNSnorlax"></a>
+
+
+
+<CENTER>
+<img src = "Assets/graphics/about.png" alt="aboutSweetNSour" class = "aboutSweetNSour" >
+<img src = "Assets/graphics/aboutSweet.png" alt="aboutSweet" id = "aboutSweet">
+<img src = "Assets/graphics/aboutSour.png" alt="aboutSour" id = "aboutSour" >
+<img src = "Assets/graphics/aboutBen.png" alt="aboutBen" id = "aboutBen" >
+</CENTER>
+
+
+
+<style>
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	background-image: url("Assets/background.png");
+	background-size: 2000px;
+  padding-bottom: 100px;
+  padding-top:  100px;
+
+}
+
+ul{
+	list-style-type:  none;
+	padding: 0;
+	overflow:  hidden;
+	background-color: #fecd1a;
+	position:  fixed;
+	top: -1%;
+	width:  100%;
+	z-index: 1;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	font-size: 180%;
+	display: block;
+	color: black;
+	text-align:  center;
+	padding: 5px 60px;
+	text-decoration: none;
+
+
+}
+
+li a:hover:not(.active){
+	background-color: #feaa29 ;
+}
+.active{
+	background-color: #fd5e62;
+}
+
+.button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #abcbff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover{
+	background-color: #6786b8;
+}
+
+.button:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.aboutSweetNSour{
+	position: relative;
+	display: inline-block;
+	margin:  70px;
+	width: 90%;
+	height: auto;
+	
+}
+
+#aboutSweet{
+	position: relative;
+	display: inline-block;
+	margin:  70px;
+	width: 90%;
+	height: auto;
+
+}
+
+#aboutSour{
+	position: relative;
+	display: inline-block;
+	margin:  70px;
+	width: 90%;
+	height: auto;
+
+}
+
+#aboutBen{
+	position: relative;
+	display: inline-block;
+	margin:  70px;
+	width: 90%;
+	height: auto;
+
+}
+
+.sweetNMew{
+	position: absolute;
+	display: inline-block;
+	margin:  70px;
+	width: 35%;
+	height: auto;
+	z-index: 1;
+	top: 15%;
+	left: 1%;
+}
+
+.sourNSnorlax{
+	position: absolute;
+	display: inline-block;
+	margin:  70px;
+	width: 35%;
+	height: auto;
+	z-index: 1;
+	top: 15%;
+	left: 55%;
+}
+</style>
+
+
+</body>
+</html>

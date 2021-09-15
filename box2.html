@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+
+<header>
+	<title>SweetNSour</title>
+
+	
+</header>
+<body>
+
+<ul>
+	<li><a href="index.html"><img src = "Assets/drawings/pokeball.png" width = "30" height = "auto" alt="Logo"></a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="bundles.html">Bundles</a></li>
+  <li><a class="active">Stickers</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="buyNow.html">Buy Now</a></li>
+</ul>
+
+<CENTER>
+<img src = "Assets/stickerPage/stickerSets/stickerset2.png" alt="stickerSet1" class = "box" >
+</CENTER>
+
+<img src = "Assets/stickerPage/boxLabels/box2Label.png" alt="box1Label" class = "boxLabel">
+<a href = "stickers.html"><img src = "Assets/stickerPage/buttons/box2Left.png" alt="buttonLeft" class = "buttonLeft"></a>
+<a href = "stickers.html"><img src = "Assets/stickerPage/buttons/box2Right.png" alt="buttonRight" class = "buttonRight"></a>
+
+
+
+<style>
+
+
+body{
+	margin: 0;
+	background-image: url("Assets/background.png");
+	background-size: 2000px;
+    padding-bottom: 100px;
+
+}
+
+ul{
+	list-style-type:  none;
+	padding: 0;
+	overflow:  hidden;
+	background-color: #fecd1a;
+	position:  fixed;
+	top: -1%;
+	width:  100%;
+	z-index: 1;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	font-size: 180%;;
+	display: block;
+	color: black;
+	text-align:  center;
+	padding: 5px 60px;
+	text-decoration: none;
+
+
+}
+
+li a:hover:not(.active){
+	background-color: #feaa29 ;
+}
+.active{
+	background-color: #fd5e62;
+}
+
+
+.box{
+	position: absolute;
+	display: inline-block;
+	margin:  70px;
+	width:  1150px;
+	height: auto;
+	top:  20%;
+	left: 15%;
+	
+}
+
+.boxLabel{
+	position: absolute;
+	display: inline-block;
+	margin:  70px;
+	width:  500px;
+	height: auto;
+	top:  5%;
+	left: 33%;
+
+}
+
+.buttonLeft{
+	position: absolute;
+	display: inline-block;
+	margin:  70px;
+	width:  120px;
+	height: auto;
+	top:  3.5%;
+	left: 26.5%;
+}
+
+.buttonRight{
+	position: absolute;
+	display: inline-block;
+	margin:  70px;
+	width:  105px;
+	height: auto;
+	top:  3.7%;
+	left: 61%;
+}
+
+
+</style>
+
+
+</body>
+</html>
